@@ -1,0 +1,12 @@
+--- /root/usr/src/distrib/utils/embedded/mkimage	2015-08-06 21:13:43.000000000 +0000
++++ /usr/src/distrib/utils/embedded/mkimage	2016-12-02 06:52:45.000000000 +0000
+@@ -60,7 +60,8 @@
+ GZIP_CMD=${TOOL_GZIP:-gzip} # ${GZIP} is special to gzip(1)
+ 
+ src="/usr/src"
+-sets="base comp etc games man misc modules text"
++#sets="base comp etc games man misc modules text"
++sets="base etc"
+ xsets="xbase xcomp xetc xfont xserver" 
+ minfree="10%"
+ bar="==="
